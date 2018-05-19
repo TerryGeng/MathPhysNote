@@ -4,8 +4,6 @@ typora-copy-images-to: ../数学物理方法 总结
 
 ## 数学物理方法 总结
 
-耿彦达 匡亚明学院 161240014
-
 [TOC]
 
 ### Chapter 1 复变函数 Complex analysis
