@@ -646,8 +646,7 @@ u_n |_{t=0} = 0, \frac{\partial u_n}{\partial t} |_{t=0} = 0.
 \end{cases}
 $$
 
-由于在 $t = t_n$ ，也就是 $f(x, t_n) \delta(t - t_n)$ 起作用之前，弦实际上不震动. 因为弦不振动，在那一刻之前有 $u_{xx} = 0$.
-因此，实际上这一时刻满足方程
+在 $t = t_n$ ，也就是 $f(x, t_n) \delta(t - t_n)$ 起作用之前，弦实际上不震动. 弦在 $t = t_n$ 后开始振动. 那一刻有 $u_{xx}$ 有界，因此，实际上这一时刻满足方程
 
 $$
 \int_{t_n - \delta t}^{t_n + \delta t} \frac{\partial^2 u_n}{\partial t^2}(x_0, t) \, \mathrm{d}t
@@ -658,11 +657,12 @@ $$
 而
 $$
 \left|\frac{\partial^2 u_n}{\partial x^2} \right|_{t < t_n + \delta t} < M, \\
-\int_{t_n - \delta t}^{t_n + \delta t} \frac{\partial^2 u_n}{\partial x^2}(x_0, t) < 2M\delta t.
+\int_{t_n - \delta t}^{t_n + \delta t} \frac{\partial^2 u_n}{\partial x^2}(x_0, t)  \,  \mathrm{d}t< 2M\delta t.
 $$
 
 取 $\delta t \to 0$ ，该项取0.
 $$
+\frac{\partial^2 u_n}{\partial t^2}(x_0, t) \, \mathrm{d}t = d \left( \frac{\partial u_n}{\partial t}(x_0, t) \right),\\
 \frac{\partial u_n}{\partial t}(x_0, t_n+0) = f(x_0, t_n) \Delta t， \\
 \text{i.e.} \quad
 \left. \frac{\partial u_n}{\partial t} \right|_{t=t_n} = f(x, t_n) \Delta t.
