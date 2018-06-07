@@ -145,12 +145,12 @@ $$
 对于球函数方程，进一步分离变量 $Y = \Theta(\theta) \Phi(\phi)$ ，
 $$
 \frac{\sin \theta}{\Theta}\frac{\partial }{\partial \theta} \left( \sin \theta  \frac{\partial \Theta}{\partial \theta}\right)
-+   \mu \sin^2\theta = - \frac{1}{\Phi} \frac{\partial^2 \Phi}{\partial \phi^2} = \lambda. \\
++    l(l+1) \sin^2\theta = - \frac{1}{\Phi} \frac{\partial^2 \Phi}{\partial \phi^2} = \lambda. \\
 \implies 
 \begin{cases}
 \frac{\partial^2 \Phi}{\partial \phi^2} + \lambda \Phi = 0, \\
 \sin \theta\frac{\partial }{\partial \theta} \left( \sin \theta  \frac{\partial \Theta}{\partial \theta}\right)
-+  ( \mu \sin^2\theta - \lambda)\Theta = 0.
++  (  l(l+1) \sin^2\theta - \lambda)\Theta = 0.
 \end{cases}
 $$
 
@@ -165,7 +165,7 @@ $$
 $$
 而关于 $\Theta$ 的方程，进行变量代换 $\cos \theta = x, x\in [-1,1]$ ，记 $\Theta(\theta) = y(x)$ ，
 $$
-\frac{\mathrm{d}}{\mathrm{d} x} \left[ (1-x^2) \frac{\mathrm{d}y}{\mathrm{d} x} \right] + \left[ \mu - \frac{m^2}{1-x^2} \right] y = 0.
+\frac{\mathrm{d}}{\mathrm{d} x} \left[ (1-x^2) \frac{\mathrm{d}y}{\mathrm{d} x} \right] + \left[  l(l+1) - \frac{m^2}{1-x^2} \right] y = 0.
 $$
 该方程称为**连带Legendre方程**.
 
@@ -195,7 +195,7 @@ R'' + \frac{1}{r}R' + \left( \mu - \frac{m^2}{r^2} \right) R = 0.
 \end{cases}
 $$
 
-对于不同的 $mu$ 的取值，如果有 $\mu < 0$. 令 $x = \sqrt{-\mu}r$ ，$R$ 方向方程化为**m阶虚宗量Bessel方程**
+对于不同的 $\mu$ 的取值，如果有 $\mu < 0$. 令 $x = \sqrt{-\mu}r$ ，$R$ 方向方程化为**m阶虚宗量Bessel方程**
 $$
 x^2 R'' + xR' - (x^2 + m^2)R = 0.
 $$
