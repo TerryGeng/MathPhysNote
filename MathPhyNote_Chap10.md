@@ -1,4 +1,4 @@
-数学物理方法 总结
+## 数学物理方法 总结
 
 [TOC]
 
@@ -30,7 +30,11 @@ $$
 $$
 P_l(x) = \sum_{k=0}^{\lfloor l/2 \rfloor}(-1)^k \frac{(2l-2k)!}{2^l(l-k)!(l-2k)!} x^{l-2k}, \quad x\in [-1,1].
 $$
-它与径向部分的解共同组成球坐标下Laplace的解
+结合径向方程
+$$
+\frac{\partial }{\partial r} \left(r^2 \frac{\partial R}{\partial r} \right)  - l(l+1) R = 0, 
+$$
+它们共同组成球坐标下Laplace的解
 $$
 \begin{cases}
 R(r) = Cr^l + Dr^{-(l+1)} \\
@@ -39,7 +43,10 @@ P_l(x) = \sum_{k=0}^{\lfloor l/2 \rfloor}(-1)^k \frac{(2l-2k)!}{2^l(l-k)!(l-2k)!
 \implies u(r, \theta) = \sum_{l=0}^{+\infty} \left( A_lr^l + Br^{-(l+1)} \right)P_l(\cos \theta).
 $$
 
-因为奇数阶Legendre函数只具有级数次幂，偶数阶Legendre函数只有偶数幂，**因此奇数阶Legendre函数是奇函数，偶数阶Legendre函数是偶函数.**
+**Note**： 
+1. 因为奇数阶Legendre函数只具有级数次幂，偶数阶Legendre函数只有偶数幂，**因此奇数阶Legendre函数是奇函数，偶数阶Legendre函数是偶函数.**
+2. 可以看出R中的l是Legendre方程的本征值，是由Legendre方程决定的. 为什么不是由R决定的？**这是因为我们在求解Laplace方程的时候默认了关于 $\theta$ 的自然边界条件，而把关于 $r$ 的边界条件当成了“初始条件”用**——用得到的解的形式展开它确定解中的待定常数. 不能反过把  $\theta$ 的“自然边界条件”当成“初始条件”用，这简直是显然的. 
+3. 同时这也意味着一个提法恰当的球坐标下的Laplace方程，不会再额外给定关于 $\theta$ 的其他边界条件. 否则必须从原始常微分方程的求解开始重新考虑.
 
 ##### 前几个Legendre函数
 
@@ -90,7 +97,18 @@ $$
 
 ##### 广义Fourier级数展开
 
-由Sturm–Liouville定理，Legendre函数作为Legendre方程的一族本征函数，完备且正交. 即
+由Sturm–Liouville定理，一般形式的Sturm-Liouville方程为
+$$
+\frac{\mathrm{d}}{\mathrm{d} x}\left[ k(x) \frac{\mathrm{d} y}{\mathrm{d} x} \right] - q(x)y + \lambda \rho(x) y = 0.
+$$
+将Legendre方程写成Sturm-Liouville方程的形式
+$$
+(1-x^2) \frac{\mathrm{d}^2\Theta}{\mathrm{d} x^2} -2x \frac{\mathrm{d}\Theta}{\mathrm{d} x} + l(l+1) \Theta = 0 \\
+\iff \frac{\mathrm{d}}{\mathrm{d} x}\left[ (1-x^2) \frac{\mathrm{d} y}{\mathrm{d} x} \right] + \lambda y = 0.
+$$
+
+
+由此我们得到Legendre方程的解，即Legendre函数为一族本征函数，完备且正交，权为1. 即
 $$
 \int_{-1}^1 P_k(x)P_l(x) \mathrm{d}x = 0, \quad k \neq l.
 $$
@@ -353,3 +371,46 @@ $$
 1. 首先把 $\theta$ 当成一个参数，然后用 $\cos m\phi, \sin m\phi$ 为基展开 $f(\theta, \phi)$ ，求出展开系数（参见第5章）.
 2. 然后，对于每一项 $\cos m\phi, \sin m\phi$ 前的系数，再用 $P_l^m(\cos \theta)$ 展开.
 
+
+
+
+#### Laplace方程在球坐标下的一般解法
+
+我们已经充分讨论了Legendre方程与连带Legendre方程的求解细节. 下面回到Laplace方程的求解上. 我们归纳出如下的求解过程：
+
+将方程分离变量成 $u = R(r) \Theta(\theta) \Phi(\phi)$ .
+
+-  若边界条件与 $\phi$ 无关
+   -  则角度部分方程退化为Legendre方程. 关于 $\phi$ 的 $\Phi(\phi) = const.$
+
+   -  关于 $\theta$ 的 $\Theta$ 为一族Legendre函数， $\Theta_l(\theta) = P_l(\cos \theta).$
+
+   -  结合径向方程的解，解的形式可以写作
+
+   -  $$
+      u(r, \theta) = \sum_{l=0}^{+\infty} \left( A_lr^l + B_lr^{-(l+1)} \right)P_l(\cos \theta).
+      $$
+
+   -  使用 $P_l(\cos \theta)$  （边界条件取在 $r = r_0$ 上）展开边界条件的表达式，定出常数A和B.
+
+   -  Note:
+
+      -  根据求解区域为球内或者球外，由自然边界条件，前者B取0，后者A取0.
+      -  上文已经提过为什么边界条件不会取在 $\theta = \theta_0$ 上.
+
+-  若边界条件与 $\phi$ 有关
+
+   -  由默认的周期性边界条件得到 $\Phi_m(\phi) = A \cos m\phi + B \sin m\phi, \quad m = 0,1,2,\cdots.$
+
+   -  关于 $\theta$ 的方程的解为连带Legendre函数 $\Theta_{l,m}(\theta) = P_l^m(x).$ 其中m为关于 $\phi$ 的本征值.
+
+   -  结合径向方程的解 $R_l(r) = Cr^l + Dr^{-(l+1)}.$ 方程的解的形式可以写作
+
+   -  $$
+      u(r, \theta, \phi) = \sum_{m=0}^{+\infty} \sum_{l=m}^{+\infty} r^l \left(A_l^m \cos m \phi +B_l^m \sin m \phi\right) P_l^m(\cos \theta). \\
+      \text{or} \quad u(r, \theta, \phi) = \sum_{m=0}^{+\infty} \sum_{l=m}^{+\infty} r^{-(l+1)}\left(A_l^m \cos m \phi +B_l^m \sin m \phi\right) P_l^m(\cos \theta). \\
+      $$
+
+   -  Note：具体取上式还是下式取决于求解区域是球内或者球外.
+
+   -  使用 $P^m_l(\cos \theta)\sin m\phi, P^m_l(\cos \theta)\cos m\phi$  （边界条件取在 $r = r_0$ 上）展开边界条件的表达式，定出常数A和B，方法见上文.

@@ -347,7 +347,12 @@ $$
 
 Legendre多项式的更多性质将在下一章给出.
 
+**Note:** 对比我们得到Legendre方程本征值的方法和在Chap 8中我们得到二阶齐次线性方程本征值的差别，可以看出，
+- 二阶齐次线性方程本征值由边界处的第一、二、三类边界条件定出的；
 
+- Legendre方程的本征值仅仅是由边界 $x = \pm 1$ 处不发散的自然边界条件给出. 这意味着：具体物理问题中，Legendre方程的本征值 $l(l+1)$ **并不依赖于其他给定的边界条件**. 任何边界条件下，其本征值总是 $l(l+1)$ .
+
+  ​
 
 #### 正则奇点邻域上的级数解法
 
@@ -491,9 +496,28 @@ $$
 f(x) = \sum_{k=0}^{+\infty} f_n y_n(x).
 $$
 
-实际上，一般形式的二阶常微分方程都可以化为Sturm–Liouville形式，只需乘上因子 $\exp(\int a(x) \mathrm d x)$ ，
+实际上，一般形式的二阶常微分方程都可以化为Sturm–Liouville形式，
 $$
-\exp(\int a(x) \mathrm d x)(y'' + a(x)y' + b(x)y + \lambda c(x) y) = 0 \implies\\
-\frac{\mathrm{d}}{\mathrm{d} x}\left[ \exp(\int a(x) \mathrm d x) \frac{\mathrm{d} y}{\mathrm{d} x} \right] + \left[ b(x) \exp(\int a(x) \mathrm d x) \right]y + \lambda \left[ c(x) \exp(\int a(x) \mathrm d x) \right] y = 0.
+\frac{\mathrm{d}}{\mathrm{d} x}\left[ k(x) \frac{\mathrm{d} y}{\mathrm{d} x} \right] - q(x)y + \lambda \rho(x) y = 0 \\
+\iff y'' + \frac{k'(x)}{k(x)} y' - \frac{q(x)}{k(x)}y + \lambda \frac{\rho(x)}{k(x)}y = 0
+$$
+对于一般形式的二阶常微分方程
+$$
+y'' + a(x)y' + b(x)y + \lambda c(x) y = 0,
+$$
+只需要解出k，
+$$
+\frac{k'(x)}{k(x)} = a(x). \\
+\implies k(x) = \exp \left( \int a(x) \mathrm{d}x \right).
 $$
 
+则该二阶常微分方程可以写为
+$$
+\frac{\mathrm{d}}{\mathrm{d} x}\left[ k(x) \frac{\mathrm{d} y}{\mathrm{d} x} \right] - q(x)y + \lambda \rho(x) y = 0,
+$$
+
+其中
+$$
+q(x) = b(x)k(x) = b(x)\exp \left( \int a(x) \mathrm{d}x \right). \\
+\rho(x) = c(x)k(x) = c(x) \exp \left( \int a(x) \mathrm{d}x \right).
+$$
