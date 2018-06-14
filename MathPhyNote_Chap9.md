@@ -19,7 +19,69 @@ u(x,0,z) = u(x,y_0,z) = 0,  \implies Y(0) = Y(y_0) = 0 \\
 u(x,y,0) = u(x,y,z_0) = 0,  \implies Z(0) = Z(z_0) = 0
 \end{cases}
 $$
-这类边界条件（当然可以取其他形式的，但是必须能化为分别针对 $X,Y,Z$ 的形式，否则没办法解出本征函数）. 这就意味着，边界条件必须是在一个“方盒子”的面上. 对于其他的复杂边界的形式，依然不好处理. 不过，如果边界条件拥有良好的对称性，比如轴对称、中心对称，那么通过坐标变换的方式把方程转化到极坐标或者球坐标下，我们也能够把边界条件写成只针对单个分离出来的函数的形式.
+
+这样，我们就能分别求解关于 $x,y,z$ 的方程，求出关于 $x,y,z$ 方向的本征函数，并用它们组合出一个解. 问题在于，这种做法在数学上是否严谨可靠，我们先前并没有讨论.
+
+除此之外，边界条件当然可以取其他形式，按照之前的套路，必须能化为分别针对 $X,Y,Z$ 的形式，否则没办法解出本征函数. 这就意味着，边界条件必须是在一个“方盒子”的面上. 对于其他的复杂边界的形式，依然不好处理. 不过，如果边界条件拥有良好的对称性，比如轴对称、中心对称，那么通过坐标变换的方式把方程转化到极坐标或者球坐标下，我们也能够把边界条件写成只针对单个分离出来的函数的形式.
+
+这个Chapter将分别处理这两个问题. 
+
+#### Sturm–Liouville 本征值问题
+
+到目前为止，我们求解偏微分方程的套路是：先分离变量，把偏微分方程化为常微分方程；解出本征函数族；线性组合本征函数族，使得我们的解满足初始条件.
+
+这么做是有前提的：首先要证明本征函数两两（带权）正交，然后本征函数族完备（线性组合就能表示函数空间里的任何一个函数）. Sturm–Liouville定理告诉我们这些事情都是对的. 
+
+**Sturm–Liouville 定理**：对于形如
+$$
+\frac{\mathrm{d}}{\mathrm{d} x}\left[ k(x) \frac{\mathrm{d} y}{\mathrm{d} x} \right] - q(x)y + \lambda \rho(x) y = 0
+$$
+的方程，其中 $k(x), q(x), \rho(x)$ 均取非负值 ，在一、二、三类边界条件
+$$
+\alpha_1 y(a) +  \alpha_2 y'(a) = 0, \\
+\beta_1 y(b) +  \beta_2 y'(b) = 0 \\
+$$
+或者自然边界条件下，有：
+
+1.  如果 $k, k' ,q$ 连续或者最多以 $x=a,b$ 为一阶极点，则存在无限个本征值 $\lambda_k$ 以及无限多本征函数 $y_k(x)$.
+
+2.  所有本征值 $\lambda_k > 0$.
+
+3.  不同本征值的本征函数带权正交
+
+$$
+\int_{a}^{b} \rho(x)y_n(x)y_m(x) \mathrm{d}x = 0.
+$$
+4.	本征函数族完备：只要 $f(x)$ 具有连续一阶导数和分段连续二阶导数，且满足本征函数族满足的边界条件，就可以展开为
+$$
+f(x) = \sum_{k=0}^{+\infty} f_n y_n(x).
+$$
+
+实际上，一般形式的二阶常微分方程都可以化为Sturm–Liouville形式，
+$$
+\frac{\mathrm{d}}{\mathrm{d} x}\left[ k(x) \frac{\mathrm{d} y}{\mathrm{d} x} \right] - q(x)y + \lambda \rho(x) y = 0 \\
+\iff y'' + \frac{k'(x)}{k(x)} y' - \frac{q(x)}{k(x)}y + \lambda \frac{\rho(x)}{k(x)}y = 0
+$$
+对于一般形式的二阶常微分方程
+$$
+y'' + a(x)y' + b(x)y + \lambda c(x) y = 0,
+$$
+只需要解出k，
+$$
+\frac{k'(x)}{k(x)} = a(x). \\
+\implies k(x) = \exp \left( \int a(x) \mathrm{d}x \right).
+$$
+
+则该二阶常微分方程可以写为
+$$
+\frac{\mathrm{d}}{\mathrm{d} x}\left[ k(x) \frac{\mathrm{d} y}{\mathrm{d} x} \right] - q(x)y + \lambda \rho(x) y = 0,
+$$
+
+其中
+$$
+q(x) = -b(x)k(x) = -b(x)\exp \left( \int a(x) \mathrm{d}x \right). \\
+\rho(x) = c(x)k(x) = c(x) \exp \left( \int a(x) \mathrm{d}x \right).
+$$
 
 #### 不同坐标系下的Laplace算子的展开
 
@@ -110,13 +172,15 @@ z = z.
 $$
 有
 $$
-\nabla^2 = \frac{1}{r} \frac{\partial}{\partial r}\left( r  \frac{\partial u}{\partial r} \right) + \frac{1}{r^2}\frac{\partial^2 u}{ \partial \theta^2} + \frac{\partial^2 u}{ \partial z^2}.
+\nabla^2u  = \frac{1}{r} \frac{\partial}{\partial r}\left( r  \frac{\partial u}{\partial r} \right) + \frac{1}{r^2}\frac{\partial^2 u}{ \partial \theta^2} + \frac{\partial^2 u}{ \partial z^2}.
 $$
 
 
 #### 几种特殊常微分方程的导出
 
-因为Laplace算子在不同坐标系下展开的形式不一样，因此分离变量后得到的常微分方程也各不相同. 
+因为Laplace算子在不同坐标系下展开的形式不一样，因此分离变量后得到的常微分方程也各不相同. 、
+
+注：这个Section讨论的只是怎么样形式上导出这些方程，给之后的“级数求解”寻找一些“靶子”. 配合上边界条件的详细讨论它们的求解过程分别在Chap 10 和 Chap 11.
 
 ##### Laplace方程
 
@@ -215,7 +279,20 @@ $$
 T'' + k^2a^2T = 0.
 $$
 
-在球坐标系中，分理出角度相关的方程没有改变，依然是球函数方程. 径向方程多出一项：
+在球坐标系中，
+$$
+\frac{1}{r^2}\frac{\partial }{\partial r} \left(r^2 \frac{\partial v}{\partial r} \right) 
++  \frac{1}{r^2 \sin \theta}\frac{\partial }{\partial \theta} \left( \sin \theta  \frac{\partial v}{\partial \theta}\right)
++  \frac{1}{r^2 \sin^2 \theta}\frac{\partial^2 v}{\partial \phi^2} + k^2 v= 0.
+$$
+分离变量，取 $u = R(r)Y(\theta, \phi)$ ，有
+$$
+\frac{1}{R} \frac{\partial }{\partial r} \left(r^2 \frac{\partial R}{\partial r} \right)  + k^2 r^2
+= -  \frac{1}{Y \sin \theta}\frac{\partial }{\partial \theta} \left( \sin \theta  \frac{\partial Y}{\partial \theta}\right)
+-  \frac{1}{Y \sin^2 \theta}\frac{\partial^2 Y}{\partial \phi^2}
+= l(l+1).
+$$
+分离出角度相关的方程没有改变，依然是球函数方程. 径向方程多出一项：
 $$
 \frac{\partial }{\partial r} \left(r^2 \frac{\partial R}{\partial r} \right)  + [k^2r^2-l(l+1) ]R = 0, \\
 \iff r^2R'' + 2rR' + [k^2r^2-l(l+1) ]R = 0.
@@ -350,7 +427,7 @@ Legendre多项式的更多性质将在下一章给出.
 **Note:** 对比我们得到Legendre方程本征值的方法和在Chap 8中我们得到二阶齐次线性方程本征值的差别，可以看出，
 - 二阶齐次线性方程本征值由边界处的第一、二、三类边界条件定出的；
 
-- Legendre方程的本征值仅仅是由边界 $x = \pm 1$ 处不发散的自然边界条件给出. 这意味着：具体物理问题中，Legendre方程的本征值 $l(l+1)$ **并不依赖于其他给定的边界条件**. 任何边界条件下，其本征值总是 $l(l+1)$ .
+- Legendre方程的本征值仅仅是由边界 $x = \pm 1$ 处不发散的自然边界条件给出. 这意味着：具体物理问题中，Legendre方程的本征值 $l(l+1)$ **并不需要额外的关于 $\theta$ 的边界条件**. 任何边界条件下，其本征值总是 $l(l+1)$ .
 
   ​
 
@@ -463,61 +540,4 @@ $$
 当然，如果 $\nu$ 不是半整数，一切好说，解
 $$
 y = c_1 J_\nu(x) + c_2 J_{-\nu}(x).
-$$
-
-#### Sturm–Liouville 本征值问题
-
-到目前为止，我们求解偏微分方程的套路是：先分离变量，把偏微分方程化为常微分方程；解出本征函数族；线性组合本征函数族，使得我们的解满足初始条件.
-
-实际上这么做是有前提的：首先要证明本征函数两两（带权）正交，然后本征函数族完备（线性组合就能表示函数空间里的任何一个函数）. Sturm–Liouville定理告诉我们这些事情都是对的. 
-
-Sturm–Liouville 定理：对于形如
-$$
-\frac{\mathrm{d}}{\mathrm{d} x}\left[ k(x) \frac{\mathrm{d} y}{\mathrm{d} x} \right] - q(x)y + \lambda \rho(x) y = 0
-$$
-的方程，在边界条件
-$$
-\alpha_1 y(a) +  \alpha_2 y'(a) = 0, \\
-\beta_1 y(b) +  \beta_2 y'(b) = 0 \\
-$$
-下，有：
-
-1.  如果 $k, k' ,q$ 连续或者最多以 $x=a,b$ 为一阶极点，则存在无限个本征值 $\lambda_k$ 以及无限多本征函数 $y_k(x)$.
-
-2.  所有本征值 $\lambda_k > 0$.
-
-3.  不同本征值的本征函数带权正交
-
-$$
-\int_{a}^{b} \rho(x)y_n(x)y_m(x) \mathrm{d}x = 0.
-$$
-4.	本征函数族完备：只要 $f(x)$ 具有连续一阶导数和分段连续二阶导数，且满足本征函数族满足的边界条件，就可以展开为
-$$
-f(x) = \sum_{k=0}^{+\infty} f_n y_n(x).
-$$
-
-实际上，一般形式的二阶常微分方程都可以化为Sturm–Liouville形式，
-$$
-\frac{\mathrm{d}}{\mathrm{d} x}\left[ k(x) \frac{\mathrm{d} y}{\mathrm{d} x} \right] - q(x)y + \lambda \rho(x) y = 0 \\
-\iff y'' + \frac{k'(x)}{k(x)} y' - \frac{q(x)}{k(x)}y + \lambda \frac{\rho(x)}{k(x)}y = 0
-$$
-对于一般形式的二阶常微分方程
-$$
-y'' + a(x)y' + b(x)y + \lambda c(x) y = 0,
-$$
-只需要解出k，
-$$
-\frac{k'(x)}{k(x)} = a(x). \\
-\implies k(x) = \exp \left( \int a(x) \mathrm{d}x \right).
-$$
-
-则该二阶常微分方程可以写为
-$$
-\frac{\mathrm{d}}{\mathrm{d} x}\left[ k(x) \frac{\mathrm{d} y}{\mathrm{d} x} \right] - q(x)y + \lambda \rho(x) y = 0,
-$$
-
-其中
-$$
-q(x) = b(x)k(x) = b(x)\exp \left( \int a(x) \mathrm{d}x \right). \\
-\rho(x) = c(x)k(x) = c(x) \exp \left( \int a(x) \mathrm{d}x \right).
 $$
