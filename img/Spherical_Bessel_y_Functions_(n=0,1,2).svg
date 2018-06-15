@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   width="500"
+   height="380"
+   sodipodi:docname="Spherical Bessel y Functions (n=0,1,2).svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:docbase="C:\Documents and Settings\JJB\My Documents\My Pictures\Electronics\Illustrations\Maths\Functions">
+  <sodipodi:namedview
+     inkscape:window-height="874"
+     inkscape:window-width="1352"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10000"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="1"
+     inkscape:cx="296.14676"
+     inkscape:cy="210.753"
+     inkscape:window-x="80"
+     inkscape:window-y="0"
+     inkscape:current-layer="g2345"
+     width="500px"
+     height="380px"
+     gridspacingx="5px"
+     gridspacingy="5px"
+     gridempspacing="4"
+     showgrid="true"
+     inkscape:grid-points="true" />
+  <metadata
+     id="metadata2112">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2102">
+    <clipPath
+       id="cp2">
+      <polygon
+         id="polygon4812"
+         points="82,19 82,236 433,236 433,19 82,19 " />
+    </clipPath>
+    <font
+       id="SVGTimesFont"
+       horiz-adv-x="1024">
+      <font-face
+         font-family="SVGTimes"
+         id="font-face2105"
+         font-weight="normal"
+         units-per-em="2048" />
+      <missing-glyph
+         d="M128 0V1638H896V0H128ZM256 128H768V1510H256V128Z"
+         id="missing-glyph2107" />
+      <glyph
+         unicode="-"
+         id="glyph2109"
+         d="M1184 469H135V584H1184V469Z"
+         horiz-adv-x="1319" />
+    </font>
+    <clipPath
+       id="cp22">
+      <polygon
+         id="polygon2006"
+         points="74,13 74,364 434,364 434,13 74,13 " />
+    </clipPath>
+    <clipPath
+       id="cp1">
+      <polygon
+         id="polygon9"
+         points="-33554400,-33554400 -33554400,33554400 33554400,33554400 33554400,-33554400 -33554400,-33554400 " />
+    </clipPath>
+    <clipPath
+       id="cp3">
+      <polygon
+         id="polygon1797"
+         points="73,190 73,203.563 95,203.563 95,190 73,190 " />
+    </clipPath>
+    <clipPath
+       id="cp4">
+      <polygon
+         id="polygon1806"
+         points="74,13 74,364 434,364 434,13 74,13 " />
+    </clipPath>
+    <clipPath
+       id="cp5">
+      <polygon
+         id="polygon1821"
+         points="73,190 73,203.563 95,203.563 95,190 73,190 " />
+    </clipPath>
+    <clipPath
+       id="cp6">
+      <polygon
+         id="polygon1830"
+         points="74,13 74,364 434,364 434,13 74,13 " />
+    </clipPath>
+    <clipPath
+       id="cp7">
+      <polygon
+         id="polygon1845"
+         points="73,190 73,203.563 88,203.563 88,190 73,190 " />
+    </clipPath>
+    <clipPath
+       id="cp8">
+      <polygon
+         id="polygon1852"
+         points="74,13 74,364 434,364 434,13 74,13 " />
+    </clipPath>
+    <clipPath
+       id="cp9">
+      <polygon
+         id="polygon1867"
+         points="73,190 73,203.563 88,203.563 88,190 73,190 " />
+    </clipPath>
+    <clipPath
+       id="cp10">
+      <polygon
+         id="polygon1874"
+         points="74,13 74,364 434,364 434,13 74,13 " />
+    </clipPath>
+    <clipPath
+       id="cp11">
+      <polygon
+         id="polygon1889"
+         points="73,190 73,203.563 88,203.563 88,190 73,190 " />
+    </clipPath>
+    <clipPath
+       id="cp12">
+      <polygon
+         id="polygon1896"
+         points="74,13 74,364 434,364 434,13 74,13 " />
+    </clipPath>
+    <clipPath
+       id="cp13">
+      <polygon
+         id="polygon1907"
+         points="74,190 74,204 95,204 95,190 74,190 " />
+    </clipPath>
+    <clipPath
+       id="cp14">
+      <polygon
+         id="polygon1916"
+         points="74,13 74,364 434,364 434,13 74,13 " />
+    </clipPath>
+    <clipPath
+       id="cp15">
+      <polygon
+         id="polygon1931"
+         points="74,190 74,204 95,204 95,190 74,190 " />
+    </clipPath>
+    <clipPath
+       id="cp16">
+      <polygon
+         id="polygon1940"
+         points="74,13 74,364 434,364 434,13 74,13 " />
+    </clipPath>
+    <clipPath
+       id="cp17">
+      <polygon
+         id="polygon1955"
+         points="73,190 73,204 88,204 88,190 73,190 " />
+    </clipPath>
+    <clipPath
+       id="cp18">
+      <polygon
+         id="polygon1962"
+         points="74,13 74,364 434,364 434,13 74,13 " />
+    </clipPath>
+    <clipPath
+       id="cp19">
+      <polygon
+         id="polygon1977"
+         points="73,190 73,204 88,204 88,190 73,190 " />
+    </clipPath>
+    <clipPath
+       id="cp20">
+      <polygon
+         id="polygon1984"
+         points="74,13 74,364 434,364 434,13 74,13 " />
+    </clipPath>
+    <clipPath
+       id="cp21">
+      <polygon
+         id="polygon1999"
+         points="73,190 73,204 88,204 88,190 73,190 " />
+    </clipPath>
+    <font
+       id="font3074"
+       horiz-adv-x="1024">
+      <font-face
+         font-weight="normal"
+         id="font-face3065"
+         font-family="SVGTimes"
+         units-per-em="2048" />
+      <missing-glyph
+         id="missing-glyph3067"
+         d="M128 0V1638H896V0H128ZM256 128H768V1510H256V128Z" />
+      <glyph
+         horiz-adv-x="1319"
+         id="glyph3069"
+         d="M1184 469H135V584H1184V469Z"
+         unicode="-" />
+    </font>
+    <clipPath
+       id="clipPath3082">
+      <polygon
+         id="polygon2799"
+         points="90,14 90,227 433,227 433,14 90,14 " />
+    </clipPath>
+    <font
+       horiz-adv-x="1024"
+       id="font4654">
+      <font-face
+         id="font-face4645"
+         font-weight="normal"
+         units-per-em="2048"
+         font-family="SVGTimes" />
+      <missing-glyph
+         id="missing-glyph4647"
+         d="M128 0V1638H896V0H128ZM256 128H768V1510H256V128Z" />
+      <glyph
+         id="glyph4649"
+         d="M1184 469H135V584H1184V469Z"
+         horiz-adv-x="1319"
+         unicode="-" />
+    </font>
+    <font
+       horiz-adv-x="1024"
+       id="font5037">
+      <font-face
+         id="font-face5028"
+         font-weight="normal"
+         units-per-em="2048"
+         font-family="SVGTimes" />
+      <missing-glyph
+         id="missing-glyph5030"
+         d="M128 0V1638H896V0H128ZM256 128H768V1510H256V128Z" />
+      <glyph
+         id="glyph5032"
+         d="M1184 469H135V584H1184V469Z"
+         horiz-adv-x="1319"
+         unicode="-" />
+    </font>
+    <font
+       horiz-adv-x="1024"
+       id="font2644">
+      <font-face
+         id="font-face2635"
+         font-weight="normal"
+         units-per-em="2048"
+         font-family="SVGTimes" />
+      <missing-glyph
+         id="missing-glyph2637"
+         d="M128 0V1638H896V0H128ZM256 128H768V1510H256V128Z" />
+      <glyph
+         id="glyph2639"
+         d="M1184 469H135V584H1184V469Z"
+         horiz-adv-x="1319"
+         unicode="-" />
+    </font>
+    <clipPath
+       id="clipPath2656">
+      <polygon
+         id="polygon2419"
+         points="90,19 90,231 433,231 433,19 90,19 " />
+    </clipPath>
+  </defs>
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-opacity:1"
+     id="rect3248"
+     width="440"
+     y="20"
+     x="49"
+     height="320" />
+  <g
+     clip-path="url(#cp3)"
+     transform="translate(446,11)"
+     id="g2814">
+    <clipPath
+       id="clipPath3093">
+      <polygon
+         id="polygon2817"
+         points="74,13 74,229 434,229 434,13 74,13 " />
+    </clipPath>
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2819"
+       points="113.438,164 113.438,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2821"
+       points="129.875,164 129.875,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2823"
+       points="146.375,164 146.375,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2825"
+       points="162.813,164 162.813,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2827"
+       points="179.25,164 179.25,160 " />
+  </g>
+  <g
+     clip-path="url(#cp5)"
+     transform="translate(446,11)"
+     id="g2836">
+    <clipPath
+       id="clipPath3107">
+      <polygon
+         id="polygon2839"
+         points="74,13 74,229 434,229 434,13 74,13 " />
+    </clipPath>
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2841"
+       points="195.688,164 195.688,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2843"
+       points="212.188,164 212.188,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2845"
+       points="228.625,164 228.625,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2847"
+       points="245.063,164 245.063,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2849"
+       points="261.5,164 261.5,160 " />
+  </g>
+  <g
+     clip-path="url(#cp7)"
+     transform="translate(446,11)"
+     id="g2858">
+    <clipPath
+       id="clipPath3121">
+      <polygon
+         id="polygon2861"
+         points="74,13 74,229 434,229 434,13 74,13 " />
+    </clipPath>
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2863"
+       points="278,164 278,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2865"
+       points="294.438,164 294.438,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2867"
+       points="310.875,164 310.875,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2869"
+       points="327.313,164 327.313,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2871"
+       points="343.813,164 343.813,160 " />
+  </g>
+  <g
+     clip-path="url(#cp9)"
+     transform="translate(446,11)"
+     id="g2880">
+    <clipPath
+       id="clipPath3135">
+      <polygon
+         id="polygon2883"
+         points="74,13 74,229 434,229 434,13 74,13 " />
+    </clipPath>
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2885"
+       points="360.25,164 360.25,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2887"
+       points="376.688,164 376.688,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2889"
+       points="393.125,164 393.125,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2891"
+       points="409.563,164 409.563,161.563 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2893"
+       points="426.063,164 426.063,160 " />
+  </g>
+  <g
+     clip-path="url(#cp11)"
+     transform="translate(446,11)"
+     id="g2902">
+    <clipPath
+       id="clipPath3149">
+      <polygon
+         id="polygon2905"
+         points="74,13 74,229 434,229 434,13 74,13 " />
+    </clipPath>
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2907"
+       points="90.125,164 432.875,164 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2909"
+       points="97,221.938 101,221.938 " />
+  </g>
+  <g
+     clip-path="url(#cp13)"
+     transform="translate(446,11)"
+     id="g2920">
+    <clipPath
+       id="clipPath3161">
+      <polygon
+         id="polygon2923"
+         points="74,13 74,229 434,229 434,13 74,13 " />
+    </clipPath>
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2925"
+       points="97,214.688 99.375,214.688 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2927"
+       points="97,207.438 99.375,207.438 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2929"
+       points="97,200.188 99.375,200.188 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2931"
+       points="97,192.938 101,192.938 " />
+  </g>
+  <g
+     clip-path="url(#cp15)"
+     transform="translate(446,11)"
+     id="g2942">
+    <clipPath
+       id="clipPath3175">
+      <polygon
+         id="polygon2945"
+         points="74,13 74,229 434,229 434,13 74,13 " />
+    </clipPath>
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2947"
+       points="97,185.688 99.375,185.688 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2949"
+       points="97,178.5 99.375,178.5 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2951"
+       points="97,171.25 99.375,171.25 " />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:0.1875px;stroke-opacity:1"
+       id="polyline2953"
+       points="97,164 101,164 " />
+  </g>
+  <g
+     clip-path="url(#cp17)"
+     id="g2968"
+     transform="translate(453,16.977688)">
+    <clipPath
+       id="clipPath3191">
+      <polygon
+         id="polygon2971"
+         points="73,122 73,136 88,136 88,122 73,122 " />
+    </clipPath>
+    <text
+       font-size="10px"
+       style="font-size:10px;fill:#000000;font-family:Times New Roman"
+       id="text2973"
+       y="133"
+       x="74">0.2</text>
+  </g>
+  <g
+     clip-path="url(#cp19)"
+     id="g2988"
+     transform="translate(453,-12.016734)">
+    <clipPath
+       id="clipPath3204">
+      <polygon
+         id="polygon2991"
+         points="73,122 73,136 88,136 88,122 73,122 " />
+    </clipPath>
+    <text
+       font-size="10px"
+       style="font-size:10px;fill:#000000;font-family:Times New Roman"
+       id="text2993"
+       y="133"
+       x="74">0.4</text>
+  </g>
+  <g
+     clip-path="url(#cp21)"
+     id="g3008"
+     transform="translate(453,-41.011156)">
+    <clipPath
+       id="clipPath3217">
+      <polygon
+         id="polygon3011"
+         points="73,122 73,136 88,136 88,122 73,122 " />
+    </clipPath>
+    <text
+       font-size="10px"
+       style="font-size:10px;fill:#000000;font-family:Times New Roman"
+       id="text3013"
+       y="133"
+       x="74">0.6</text>
+  </g>
+  <text
+     style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+     id="text3255"
+     sodipodi:linespacing="125%"
+     y="44.40625"
+     x="39.785156"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan3257"
+       y="44.40625"
+       x="39.785156">0.25</tspan></text>
+  <text
+     style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+     id="text3259"
+     sodipodi:linespacing="125%"
+     y="84.40625"
+     x="39.855469"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan3261"
+       y="84.40625"
+       x="39.855469">0.00</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:italic;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-opacity:1;font-family:DejaVu Serif"
+     id="text3267"
+     y="124.40625"
+     x="39.802734"><tspan
+       sodipodi:role="line"
+       id="tspan3269"
+       y="124.40625"
+       x="39.802734">−0.25</tspan></text>
+  <text
+     style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+     id="text3275"
+     sodipodi:linespacing="125%"
+     y="164.33008"
+     x="40.289063"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan3277"
+       y="164.33008"
+       x="40.289063">−0.50</tspan></text>
+  <text
+     style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+     id="text3279"
+     sodipodi:linespacing="125%"
+     y="204.40625"
+     x="40.089844"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan3281"
+       y="204.40625"
+       x="40.089844">−0.75</tspan></text>
+  <text
+     style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+     id="text3283"
+     sodipodi:linespacing="125%"
+     y="244.40625"
+     x="39.785156"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan3285"
+       y="244.40625"
+       x="39.785156">−1.00</tspan></text>
+  <text
+     style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+     id="text3291"
+     sodipodi:linespacing="125%"
+     y="284.40625"
+     x="40.089844"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan3293"
+       y="284.40625"
+       x="40.089844">−1.25</tspan></text>
+  <text
+     style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+     id="text3295"
+     sodipodi:linespacing="125%"
+     y="324.40625"
+     x="40.289063"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan3297"
+       y="324.40625"
+       x="40.289063">−1.50</tspan></text>
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="path3299"
+     d="M 49.362757,39.5 L 488.3345,39.5" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+     id="path3301"
+     d="M 49.52664,80 L 487.67149,80" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="path3303"
+     d="M 489,119.5 L 49,119.5" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="path3305"
+     d="M 49,159.5 L 489,159.5" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="path3307"
+     d="M 489,199.5 L 49,199.5" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="path3309"
+     d="M 49,239.5 L 489,239.5" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="path3311"
+     d="M 48.886489,279.5 L 378.9853,279.5" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="path3313"
+     d="M 48.886489,319.5 L 378.9853,319.5" />
+  <text
+     style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+     id="text3315"
+     sodipodi:linespacing="125%"
+     y="355"
+     x="68.5"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan3317"
+       y="355"
+       x="68.5">0</tspan></text>
+  <text
+     style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+     id="text3319"
+     sodipodi:linespacing="125%"
+     y="355"
+     x="168.73047"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan3321"
+       y="355"
+       x="168.73047">5</tspan></text>
+  <text
+     style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+     id="text3323"
+     sodipodi:linespacing="125%"
+     y="355"
+     x="267.66211"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan3325"
+       y="355"
+       x="267.66211">10</tspan></text>
+  <text
+     style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+     id="text3327"
+     sodipodi:linespacing="125%"
+     y="355"
+     x="367.95703"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan3329"
+       y="355"
+       x="367.95703">15</tspan></text>
+  <text
+     style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+     id="text3331"
+     sodipodi:linespacing="125%"
+     y="355"
+     x="468.5"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan3333"
+       y="355"
+       x="468.5">20</tspan></text>
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+     d="M 69,340 L 69,20"
+     id="path3335" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     d="M 168.5,340 L 168.5,20"
+     id="path3337" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     d="M 268.5,340.5 L 268.5,20.5"
+     id="path3339" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     d="M 368.5,340.45813 L 368.5,20.5"
+     id="path3341" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     d="M 468.5,259.62561 L 468.5,20.540765"
+     id="path3343" />
+  <g
+     id="g2345"
+     transform="translate(3.8945618,235.12744)">
+    <text
+       sodipodi:linespacing="125%"
+       id="text3874"
+       y="43.618183"
+       x="390.10544"
+       style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+       xml:space="preserve"><tspan
+         y="43.618183"
+         x="390.10544"
+         id="tspan3876"
+         sodipodi:role="line">y</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3878"
+       y="43.618183"
+       x="402.9798"
+       style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+       xml:space="preserve"><tspan
+         y="43.618183"
+         x="402.9798"
+         id="tspan3880"
+         sodipodi:role="line">(x)</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3884"
+       y="49.872559"
+       x="396.21875"
+       style="font-size:9px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+       xml:space="preserve"><tspan
+         y="49.872559"
+         x="396.21875"
+         id="tspan3886"
+         sodipodi:role="line">0</tspan></text>
+    <path
+       id="path3888"
+       d="M 428.5,40 L 468.5,40"
+       style="fill:#000000;fill-opacity:1;stroke:#cc0000;stroke-width:2;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3890"
+       y="63.618183"
+       x="390.10544"
+       style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+       xml:space="preserve"><tspan
+         y="63.618183"
+         x="390.10544"
+         id="tspan3892"
+         sodipodi:role="line">y</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3894"
+       y="63.618183"
+       x="402.9798"
+       style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+       xml:space="preserve"><tspan
+         y="63.618183"
+         x="402.9798"
+         id="tspan3896"
+         sodipodi:role="line">(x)</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3898"
+       y="69.872559"
+       x="396.21875"
+       style="font-size:9px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+       xml:space="preserve"><tspan
+         y="69.872559"
+         x="396.21875"
+         id="tspan3900"
+         sodipodi:role="line">1</tspan></text>
+    <path
+       id="path3902"
+       d="M 428.5,60 L 468.5,60"
+       style="fill:#000000;fill-opacity:1;stroke:#4e9a06;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3904"
+       y="83.618179"
+       x="390.10544"
+       style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+       xml:space="preserve"><tspan
+         y="83.618179"
+         x="390.10544"
+         id="tspan3906"
+         sodipodi:role="line">y</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3908"
+       y="83.618179"
+       x="402.9798"
+       style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+       xml:space="preserve"><tspan
+         y="83.618179"
+         x="402.9798"
+         id="tspan3910"
+         sodipodi:role="line">(x)</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3912"
+       y="89.872559"
+       x="396.21875"
+       style="font-size:9px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+       xml:space="preserve"><tspan
+         y="89.872559"
+         x="396.21875"
+         id="tspan3914"
+         sodipodi:role="line">2</tspan></text>
+    <path
+       id="path3916"
+       d="M 428.5,80 L 468.5,80"
+       style="fill:#000000;fill-opacity:1;stroke:#204a87;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:18px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif"
+     x="264.1123"
+     y="373.84277"
+     id="text7794"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan7796"
+       x="264.1123"
+       y="373.84277">x</tspan></text>
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 49,59.5 L 54,59.5"
+     id="path2386" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 49,99.5 L 54,99.5"
+     id="path2388" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 49,139.5 L 54,139.5"
+     id="path2390" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 49,179.5 L 54,179.5"
+     id="path2392" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 49,219.5 L 54,219.5"
+     id="path2394" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 49,259.5 L 54,259.5"
+     id="path2396" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 49,299.5 L 54,299.5"
+     id="path2398" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 88.5,340 L 88.5,335"
+     id="path2400" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 108.5,340 L 108.5,335"
+     id="path2402" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 128.5,340 L 128.5,335"
+     id="path2404" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 148.5,340 L 148.5,335"
+     id="path2406" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 188.5,340 L 188.5,335"
+     id="path2408" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 208.5,340 L 208.5,335"
+     id="path2410" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 228.5,340 L 228.5,335"
+     id="path2412" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 248.5,340 L 248.5,335"
+     id="path2414" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 288.5,340 L 288.5,335"
+     id="path2416" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 308.5,340 L 308.5,335"
+     id="path2418" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 328.5,340 L 328.5,335"
+     id="path2420" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 348.5,340 L 348.5,335"
+     id="path2422" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 388.5,340 L 388.5,335"
+     id="path2424" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 408.5,340 L 408.5,335"
+     id="path2426" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 428.5,340 L 428.5,335"
+     id="path2428" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 448.5,340 L 448.5,335"
+     id="path2430" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 468.5,330.00002 L 468.5,339.83107"
+     id="path3403" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 88.5,25.5 L 88.5,20.5"
+     id="path4374" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 108.5,25.5 L 108.5,20.5"
+     id="path4376" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 128.5,25.5 L 128.5,20.5"
+     id="path4378" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 148.5,25.5 L 148.5,20.5"
+     id="path4380" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 188.5,25.5 L 188.5,20.5"
+     id="path4382" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 208.5,25.5 L 208.5,20.5"
+     id="path4384" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 228.5,25.5 L 228.5,20.5"
+     id="path4386" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 248.5,25.5 L 248.5,20.5"
+     id="path4388" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 288.5,25.5 L 288.5,20.5"
+     id="path4390" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 308.5,25.5 L 308.5,20.5"
+     id="path4392" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 328.5,25.5 L 328.5,20.5"
+     id="path4394" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 348.5,25.5 L 348.5,20.5"
+     id="path4396" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 388.5,25.5 L 388.5,20.5"
+     id="path4398" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 408.5,25.5 L 408.5,20.5"
+     id="path4400" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 428.5,25.5 L 428.5,20.5"
+     id="path4402" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 448.5,25.5 L 448.5,20.5"
+     id="path4404" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 483.5,59.5 L 488.5,59.5"
+     id="path4406" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 483.5,99.5 L 488.5,99.5"
+     id="path4408" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 483.5,139.5 L 488.5,139.5"
+     id="path4410" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 483.5,179.5 L 488.5,179.5"
+     id="path4412" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 483.5,219.5 L 488.5,219.5"
+     id="path4414" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:8, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 483.5,259.5 L 488.5,259.5"
+     id="path4416" />
+  <g
+     transform="matrix(1.1906483,0,0,1.4756299,-46.067345,-28.403345)"
+     id="g4809"
+     clip-path="url(#cp2)"
+     style="stroke:#000000;stroke-width:1.50886202;stroke-opacity:1">
+    <clipPath
+       id="clipPath5188">
+      <polygon
+         id="polygon5190"
+         points="82,19 82,236 433,236 433,19 82,19 " />
+    </clipPath>
+  </g>
+  <path
+     style="fill:none;stroke:#cc0000;stroke-width:1.99999988;stroke-opacity:1"
+     d="M 80.423705,319.71402 C 83.430473,242.47429 86.372983,164.66713 99.526956,88.842552 C 103.77514,69.685441 106.67797,47.659811 118.83078,33.41613 C 126.92638,25.687966 136.21,36.562868 141.0565,44.475328 C 154.71569,64.607971 163.03844,91.578138 181.67873,105.94226 C 193.44437,114.36099 206.8572,103.95499 215.83523,94.148642 C 228.3766,81.314496 242.76342,63.577164 260.46638,67.40405 C 281.69292,72.789105 298.19353,98.106998 320.88541,96.191632 C 343.53635,93.933463 362.65521,70.503669 386.01045,73.904472 C 407.93679,76.742324 427.67987,95.096441 450.22466,91.7342 C 456.52645,91.068084 462.69173,89.06595 468.74507,86.905315"
+     id="polyline2421" />
+  <path
+     style="fill:none;stroke:#4e9a06;stroke-width:1.99999988;stroke-miterlimit:4;stroke-dasharray:7.99999952, 1.99999988;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 88.089333,319.71402 C 92.50432,237.8787 98.667281,153.72476 127.10364,78.361904 C 132.84647,65.426345 140.09684,47.490255 153.6698,46.6027 C 168.55036,48.437782 177.54765,66.745032 187.48639,78.508284 C 197.1957,91.856894 210.66621,108.28688 226.38518,103.62069 C 248.04992,96.804784 263.01407,67.915127 286.65242,69.16845 C 309.76951,71.179713 327.83033,97.460443 351.70215,94.798684 C 374.03173,92.427378 393.63076,71.587168 416.6754,74.74024 C 434.53294,76.632441 450.83076,89.064127 468.74507,90.991295"
+     id="polyline2423" />
+  <path
+     style="fill:none;stroke:#204a87;stroke-width:1.99999988;stroke-miterlimit:4;stroke-dasharray:7.99999952, 3.99999976, 1.99999988, 3.99999976;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 97.653152,319.71402 C 101.7077,250.06194 105.82955,177.61305 133.43523,114.92192 C 143.32541,93.571873 152.48684,68.221122 171.12756,56.446196 C 184.78812,49.259077 198.46556,62.643225 208.29981,73.370615 C 220.7766,86.672217 235.31578,104.66075 253.25495,100.92765 C 275.46323,95.847517 292.33355,68.661824 316.02759,70.839987 C 338.96297,73.144048 358.08809,96.839456 381.68337,93.684326 C 403.74407,91.222157 423.6636,72.324885 446.27769,75.483145 C 453.90979,76.151417 461.5323,78.787617 468.74507,81.612115"
+     id="polyline2425" />
+  <g
+     style="stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+     clip-path="url(#cp3)"
+     id="g2427"
+     transform="matrix(1.2144531,0,0,1.4858107,-57.688447,-23.230403)">
+    <clipPath
+       id="clipPath2663">
+      <polygon
+         points="74,13 74,238 434,238 434,13 74,13 "
+         id="polygon2430" />
+    </clipPath>
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+       points="97,71.9375 97,67.9375 "
+       id="polyline2432" />
+  </g>
+  <g
+     style="stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+     transform="matrix(1.2144531,0,0,1.4858107,67.110235,-102.03992)"
+     clip-path="url(#cp5)"
+     id="g2449">
+    <clipPath
+       id="clipPath2677">
+      <polygon
+         points="73,127 73,141 80,141 80,127 73,127 "
+         id="polygon2452" />
+    </clipPath>
+    <text
+       style="font-size:10px;fill:#000000;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1;font-family:Times New Roman"
+       x="74"
+       y="138"
+       font-size="10px"
+       id="text2454">5</text>
+  </g>
+  <g
+     style="stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+     transform="matrix(1.2144531,0,0,1.4858107,163.97651,-102.03992)"
+     clip-path="url(#cp7)"
+     id="g2471">
+    <clipPath
+       id="clipPath2691">
+      <polygon
+         points="73,127 73,141 85,141 85,127 73,127 "
+         id="polygon2474" />
+    </clipPath>
+    <text
+       style="font-size:10px;fill:#000000;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1;font-family:Times New Roman"
+       x="74"
+       y="138"
+       font-size="10px"
+       id="text2476">10</text>
+  </g>
+  <g
+     style="stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+     transform="matrix(1.2144531,0,0,1.4858107,263.8789,-102.03992)"
+     clip-path="url(#cp9)"
+     id="g2493">
+    <clipPath
+       id="clipPath2705">
+      <polygon
+         points="73,127 73,141 85,141 85,127 73,127 "
+         id="polygon2496" />
+    </clipPath>
+    <text
+       style="font-size:10px;fill:#000000;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1;font-family:Times New Roman"
+       x="74"
+       y="138"
+       font-size="10px"
+       id="text2498">15</text>
+  </g>
+  <g
+     style="stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+     transform="matrix(1.2144531,0,0,1.4858107,363.78131,-102.03992)"
+     clip-path="url(#cp11)"
+     id="g2515">
+    <clipPath
+       id="clipPath2719">
+      <polygon
+         points="73,127 73,141 85,141 85,127 73,127 "
+         id="polygon2518" />
+    </clipPath>
+    <text
+       style="font-size:10px;fill:#000000;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1;font-family:Times New Roman"
+       x="74"
+       y="138"
+       font-size="10px"
+       id="text2520">20</text>
+  </g>
+  <g
+     style="stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+     transform="matrix(1.2144531,0,0,1.4858107,-57.688447,120.64704)"
+     clip-path="url(#cp13)"
+     id="g2531">
+    <clipPath
+       id="clipPath2730">
+      <polygon
+         points="74,127 74,141 95,141 95,127 74,127 "
+         id="polygon2534" />
+    </clipPath>
+    <text
+       style="font-size:10px;fill:#000000;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1;font-family:SVGTimes"
+       x="74"
+       y="138"
+       font-size="10px"
+       id="text2536">-</text>
+    <text
+       style="font-size:10px;fill:#000000;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1;font-family:Times New Roman"
+       x="80.5"
+       y="138"
+       font-size="10px"
+       id="text2538">1.5</text>
+  </g>
+  <g
+     style="stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+     transform="matrix(1.2144531,0,0,1.4858107,-57.688447,41.960622)"
+     clip-path="url(#cp15)"
+     id="g2555">
+    <clipPath
+       id="clipPath2745">
+      <polygon
+         points="74,127 74,141 95,141 95,127 74,127 "
+         id="polygon2558" />
+    </clipPath>
+    <text
+       style="font-size:10px;fill:#000000;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1;font-family:SVGTimes"
+       x="74"
+       y="138"
+       font-size="10px"
+       id="text2560">-</text>
+    <text
+       style="font-size:10px;fill:#000000;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1;font-family:Times New Roman"
+       x="80.5"
+       y="138"
+       font-size="10px"
+       id="text2562">1.0</text>
+  </g>
+  <g
+     style="stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+     transform="matrix(1.2144531,0,0,1.4858107,-57.688447,-36.725797)"
+     clip-path="url(#cp17)"
+     id="g2579">
+    <clipPath
+       id="clipPath2760">
+      <polygon
+         points="74,127 74,141 95,141 95,127 74,127 "
+         id="polygon2582" />
+    </clipPath>
+    <text
+       style="font-size:10px;fill:#000000;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1;font-family:SVGTimes"
+       x="74"
+       y="138"
+       font-size="10px"
+       id="text2584">-</text>
+    <text
+       style="font-size:10px;fill:#000000;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1;font-family:Times New Roman"
+       x="80.5"
+       y="138"
+       font-size="10px"
+       id="text2586">0.5</text>
+  </g>
+  <g
+     style="stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+     clip-path="url(#cp19)"
+     id="g2603"
+     transform="matrix(1.2144531,0,0,1.4858107,-57.688447,-23.230403)">
+    <clipPath
+       id="clipPath2775">
+      <polygon
+         points="74,13 74,238 434,238 434,13 74,13 "
+         id="polygon2606" />
+    </clipPath>
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+       points="97,61.375 99.375,61.375 "
+       id="polyline2608" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+       points="97,50.75 99.375,50.75 "
+       id="polyline2610" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+       points="97,40.1875 99.375,40.1875 "
+       id="polyline2612" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+       points="97,29.5625 99.375,29.5625 "
+       id="polyline2614" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+       points="97,19 101,19 "
+       id="polyline2616" />
+  </g>
+  <g
+     style="stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+     clip-path="url(#cp21)"
+     id="g2625"
+     transform="matrix(1.2144531,0,0,1.4858107,-57.688447,-23.230403)">
+    <clipPath
+       id="clipPath2789">
+      <polygon
+         points="74,13 74,238 434,238 434,13 74,13 "
+         id="polygon2628" />
+    </clipPath>
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1.48887384;stroke-opacity:1"
+       points="97,230.813 97,19 "
+       id="polyline2630" />
+  </g>
+</svg>
