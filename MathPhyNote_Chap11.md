@@ -229,11 +229,11 @@ J_\nu &\to \sqrt{\frac{2}{\pi x}} \cos \left(x - \nu \pi - \frac{\pi}{4} \right)
 $$
 
 
-![Bessel_Functions_(1st_Kind,_n=0,1,2)](img/Bessel_Functions_(1st_Kind,_n=0,1,2).svg)
+![Bessel_Functions_(1st_Kind,_n=0,1,2)](https://github.com/TerryGeng/MathPhysNote/raw/master/img/Bessel_Functions_(1st_Kind%2C_n%3D0%2C1%2C2).svg)
 
 
 
-![BesselJ_Function3D](img/BesselJ_Function3D.png)
+![BesselJ_Function3D](https://github.com/TerryGeng/MathPhysNote/raw/master/img/BesselJ_Function3D.png)
 
 
 在不同其次边界条件下，$J_m$ 的模可以分别写成

@@ -12,4 +12,5 @@ Note of the course Mathematical Methods of Physics. Some personal views included
 - [Chapter 7. 数学物理方程的导出  定解问题](http://htmlpreview.github.io/?https://raw.githubusercontent.com/TerryGeng/MathPhysNote/master/html/MathPhyNote_Chap7.html)
 - [Chapter 8. 分离变量法](http://htmlpreview.github.io/?https://raw.githubusercontent.com/TerryGeng/MathPhysNote/master/html/MathPhyNote_Chap8.html)
 - [Chapter 9. 二阶常微分方程级数解法 本征值问题](http://htmlpreview.github.io/?https://raw.githubusercontent.com/TerryGeng/MathPhysNote/master/html/MathPhyNote_Chap9.html)
-- [Chapter 10. 球函数（Legendre）](http://htmlpreview.github.io/?https://raw.githubusercontent.com/TerryGeng/MathPhysNote/master/html/MathPhyNote_Chap10.html)
+- [Chapter 10. Legendre函数](http://htmlpreview.github.io/?https://raw.githubusercontent.com/TerryGeng/MathPhysNote/master/html/MathPhyNote_Chap10.html)
+- [Chapter 11. Bessel函数](http://htmlpreview.github.io/?https://raw.githubusercontent.com/TerryGeng/MathPhysNote/master/html/MathPhyNote_Chap11.html)
