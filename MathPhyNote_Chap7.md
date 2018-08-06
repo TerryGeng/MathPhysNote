@@ -56,12 +56,12 @@ $$
 
 如果弦本身还受到线性阻尼力$F(x,t) = -k \partial u / \partial t$  ，则方程改写为
 $$
-Tu_{xx} - ku_t = (\rho\mathrm{d}x) u_{tt}. \\
+Tu_{xx} - ku_t = \rho u_{tt}. \\
 $$
 
 如果弦本身的振动还受到外力 $F(x, t)$ 驱动，则
 $$
-Tu_{xx} + F = (\rho\mathrm{d}x) u_{tt}. \\
+Tu_{xx} + F = \rho u_{tt}. \\
 $$
 
 ##### 抛物型方程 扩散方程为代表

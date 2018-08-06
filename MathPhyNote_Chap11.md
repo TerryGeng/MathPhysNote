@@ -78,7 +78,7 @@ $$
 $$
 Z_n = 
 \begin{cases}
-A_n e^{\sqrt{\mu_n} z} + B_n e^{\sqrt{-\mu_n} z}, \quad \mu_n \neq 0, \\
+A_n e^{\sqrt{\mu_n} z} + B_n e^{-\sqrt{\mu_n} z}, \quad \mu_n \neq 0, \\
 A_0 + B_0z,\quad \mu_n = 0.
 \end{cases}
 $$
@@ -116,20 +116,16 @@ $$
 同样按 $u = R(r) \Phi(\phi) Z(Z)$ 分离变量，得到
 $$
 \Phi'' + m^2 \Phi = 0, \\
-Z'' - \mu Z = 0, \\
-R'' + \frac{1}{r}R' + \left( k^2+\mu - \frac{m^2}{r^2} \right) R = 0.
+Z'' + \nu^2 Z = 0, \\
+R'' + \frac{1}{r}R' + \left( k^2 - \nu^2 - \frac{m^2}{r^2} \right) R = 0.
 $$
 二式和三式分别与给定的齐次边界条件构成Strum-Liouville本征值问题.
 
 将二式写为Strum-Liouville形式
 $$
-\frac{\mathrm{d}}{\mathrm{d} z}\left[ \frac{\mathrm{d} Z}{\mathrm{d} z} \right] + (-\mu)  y = 0,
+\frac{\mathrm{d}}{\mathrm{d} z}\left[ \frac{\mathrm{d} Z}{\mathrm{d} z} \right] + \nu^2  y = 0,
 $$
-根据Strum-Liouville定理，本征值 $-\mu > 0$ 即 $\mu < 0$ .因此，Z的一系列本征解即是
-$$
-Z_n = A_n \sin \sqrt{-\mu_n} z + B_n \cos \sqrt{-\mu_n} z.
-$$
-其中本征值 $\mu_n$ 和常数由边界条件决定. 为了形式优雅，取 $\sqrt{-\mu_n} = \nu_n$ ，
+根据Strum-Liouville定理，本征值 $\nu^2 > 0$ . 因此，Z的一系列本征解即是
 $$
 Z_n = A_n \sin \nu_n z + B_n \cos \nu_n z.
 $$
@@ -137,17 +133,17 @@ $$
 
 再将径向方程写成Strum-Liouville形式
 $$
-\frac{\mathrm{d}}{\mathrm{d} r}\left[ r \frac{\mathrm{d} R}{\mathrm{d} r} \right] -\frac{m^2}{r}R  + (-\nu^2+k^2) r R = 0.
+\frac{\mathrm{d}}{\mathrm{d} r}\left[ r \frac{\mathrm{d} R}{\mathrm{d} r} \right] -\frac{m^2}{r}R  + (k^2-\nu^2) r R = 0.
 $$
 
 
-按照Strum-Liouville定理，在配上关于r的边界条件以后，该方程的解为一族完备且带权正交的本征函数 $R_{n,l}(r)$ ，权为 $r$. 本征值为 $-\nu^2+k^2$. 
+按照Strum-Liouville定理，在配上关于r的边界条件以后，该方程的解为一族完备且带权正交的本征函数 $R_{n,l}(r)​$ ，权为 $r​$. 本征值为 $k^2-\nu^2$. 
 
-本征值 $-\nu^2+k^2$ 大于0. 为了方便用已有的记号把解的形式表示出来，取 $x = \sqrt{-\nu^2+k^2} r$ ，方程再次化为**m阶Bessel方程**，
+本征值 $k^2-\nu^2$ 大于0. 为了方便用已有的记号把解的形式表示出来，取 $x = \sqrt{k^2-\nu^2} r$ ，方程再次化为**m阶Bessel方程**，
 $$
 x^2 R'' + xR' + (x^2 - m^2)R = 0.
 $$
-它的解为 $J_m, N_{m}$ . 于是 $R_{n,l}(r) = C_1 J_m(\sqrt{-\nu_n^2+k_{n,l}^2} r) + C_2 N_m(\sqrt{-\nu_n^2+k_{n,l}^2} r)$. 其中本征值 $-\nu_n^2+k_{n,l}^2$ 的具体值与两常数由关于r的边界条件决定. 记 $\mu'_{n,l} = -\nu_n^2+k_{n,l}^2$ ，于是
+它的解为 $J_m, N_{m}$ . 于是 $R_{n,l}(r) = C_1 J_m(\sqrt{k_{n,l}^2-\nu_n^2} r) + C_2 N_m(\sqrt{k_{n,l}^2-\nu_n^2} r)$. 其中本征值 $k_{n,l}^2-\nu_n^2$ 的具体值与两常数由关于r的边界条件决定. 记 $\mu'_{n,l} = k_{n,l}^2-\nu_n^2$ ，于是
 $$
 R_{n,l}(r) = C_1 J_m(\sqrt{\mu'_{n,l}} r) + C_2 N_m(\sqrt{\mu'_{n,l}} r).
 $$
@@ -229,11 +225,11 @@ J_\nu &\to \sqrt{\frac{2}{\pi x}} \cos \left(x - \nu \pi - \frac{\pi}{4} \right)
 $$
 
 
-![Bessel_Functions_(1st_Kind,_n=0,1,2)](https://github.com/TerryGeng/MathPhysNote/raw/master/img/Bessel_Functions_(1st_Kind%2C_n%3D0%2C1%2C2).svg)
+![Bessel_Functions_(1st_Kind,_n=0,1,2)](img/Bessel_Functions_(1st_Kind%2C_n%3D0%2C1%2C2).svg)
 
 
 
-![BesselJ_Function3D](https://github.com/TerryGeng/MathPhysNote/raw/master/img/BesselJ_Function3D.png)
+![BesselJ_Function3D](img/BesselJ_Function3D.png)
 
 
 在不同其次边界条件下，$J_m$ 的模可以分别写成
@@ -340,6 +336,11 @@ $$
 
 球Hankle函数同上，不再赘述.
 
+求Bessel函数也满足如下递推关系
+$$
+\frac{\mathrm{d}}{\mathrm{d}x} \left( \frac{j_l(x)}{x^{l}} \right) =- \frac{j_{l+1}(x)}{x^l}. \\
+\frac{\mathrm{d}}{\mathrm{d}x} [x^{l+1} j_l(x)] = x^{l+1} j_{l-1}(x).
+$$
 球Bessel函数还可以写成微分式
 $$
 \begin{align}

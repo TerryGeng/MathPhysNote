@@ -50,7 +50,7 @@ $$
 
 ##### 前几个Legendre函数
 
-Legendre函数是经过调整过的Legendre的解，保证了最高项的系数都是
+Legendre函数是经过调整过的Legendre方程的解，保证了最高项的系数都是
 $$
 a_l = \frac{(2l)!}{2^l(l!)^2}.
 $$
@@ -257,11 +257,11 @@ $$
 
 得到所有C都是1. 因此
 $$
-\implies \frac{1}{\sqrt{r_0^2-2r _0x + {r}^2}} = \sum_{l=0}^{+\infty}\frac{r_0^l}{r^{l+1}} P_l(x).
+\implies \frac{1}{\sqrt{r_0^2-2rr _0x + {r}^2}} = \sum_{l=0}^{+\infty}\frac{r_0^l}{r^{l+1}} P_l(x).
 $$
 从而有
 $$
-\frac{1}{\sqrt{r_0^2-2r _0x + {r}^2}} = 
+\frac{1}{\sqrt{r_0^2-2rr _0x + {r}^2}} = 
 \begin{cases}
 \sum_{l=0}^{+\infty}\frac{r^l}{r_0^{l+1}} P_l(x), \quad r<r_0 \\
 \sum_{l=0}^{+\infty}\frac{r_0^l}{r^{l+1}} P_l(x), \quad r>r_0.
@@ -321,7 +321,7 @@ P_l^m(x) &= (1-x^2)^{\frac{m}{2}}\frac{\mathrm{d}^m}{\mathrm{d}x^m}P_l(x) \\
 &= \frac{ (1-x^2)^{\frac{m}{2}}}{2^l l!}\frac{\mathrm{d}^{l+m}}{\mathrm{d}x^{l+m}}(x^2-1)^l.
 \end{align}
 $$
-**显而易见，如果 $l<m$ ，反复求导以后该式得0.**
+**显而易见，如果 $l<m$ ，反复求导以后该式得0.** 可以很轻易验证当 $m \neq 0$ 时 $P_l^m(\pm 1) = 0.$
 
 相应还可以定义 $m<0$ 时的连带Legendre函数
 $$
@@ -333,11 +333,11 @@ $$
 $$
 P_l^m = \frac{i^m}{2\pi}\frac{(l+m)!}{l!}\int_{-\pi}^{\pi}e^{im\psi} \left[ x + i \sqrt{1-x^2} \cos \psi \right]^l \mathrm{d}\psi.
 $$
-用积分表示可以很轻易验证当 $m \neq 0$ 时 $P_l^m(\pm 1) = 0.$
+
 
 $P_l^m$ 的模是
 $$
-\left( P_l^m \right)^2 = \frac{(l+m)!}{(l-m)!}\frac{2}{2l+1}.
+\left( N_l^m \right)^2 = \frac{(l+m)!}{(l-m)!}\frac{2}{2l+1}.
 $$
 
 ##### 连带Legendre函数的前几项
@@ -391,7 +391,7 @@ $$
       u(r, \theta) = \sum_{l=0}^{+\infty} \left( A_lr^l + B_lr^{-(l+1)} \right)P_l(\cos \theta).
       $$
 
-   -  使用 $P_l(\cos \theta)$  （边界条件取在 $r = r_0$ 上）展开边界条件的表达式，定出常数A和B.
+   -  使用 $P_l(\cos \theta)​$  （边界条件取在 $r = r_0​$ 上）展开边界条件的表达式，定出常数A和B.
 
    -  Note:
 

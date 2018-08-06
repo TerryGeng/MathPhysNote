@@ -365,15 +365,10 @@ $$
 
 设
 $$
-y(x) = \sum_{k=0}^{\infty} x^k,
+y(x) = \sum_{k=0}^{\infty}a_k x^k,
 $$
 
-展开 $p, q$
-$$
-p(x) = -2x \sum_{k=0}^{\infty} x^k, \quad q(x) = \mu \sum_{k=0}^{\infty} x^k.
-$$
-
-一起代入Legendre方程：
+代入Legendre方程：
 $$
 (1-x^2) \sum_{k=2}^{\infty} a_k k(k-1) x^{k-2} - 2x \sum_{k=1}^{\infty} a_k k x^{k-1} + \mu \sum_{k=0}^{\infty} a_k x^k = 0 \\
 \implies  \sum_{k=0}^{\infty} a_{k+2} (k+2)(k+1) x^{k} - \sum_{k=0}^{\infty} a_k k(k-1) x^{k} - 2 \sum_{k=0}^{\infty} a_k k x^{k} + \mu \sum_{k=0}^{\infty} a_k x^k = 0 \\
@@ -494,7 +489,7 @@ $$
 
 代入方程，合并后有
 $$
-\sum_{k=0}\left[ (k+\nu)^2 - \nu^2 \right]a_k x^{k+\nu-2} + \sum_{k=2}a_{k-2}x^{k+\nu-2} = 0 \\
+\sum_{k=0}\left[ (k+\nu)^2 - \nu^2 \right]a_k x^{k+\nu} + \sum_{k=2}a_{k-2}x^{k+\nu} = 0 \\
 \implies 
 \begin{cases}
 [(1+\nu)^2 - \nu^2]a_1 = 0 ,\\
